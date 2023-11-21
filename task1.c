@@ -1,8 +1,9 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <io.h>
+#include <sys/stat.h>
 #include <sys/types.h>
+#include <unistd.h>
 
 #define numOfBytesToRead 8
 int main()
